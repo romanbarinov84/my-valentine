@@ -1,0 +1,48 @@
+*{
+    font-family:'sofia',cursive; ;
+}
+
+html,body{
+    background-color:white;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'sofia',cursive;
+}
+img{
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 0 auto;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+
+}
+button{
+    padding: 1em 1.5em;
+    font-size: 1em;
+    background: rgb(216, 140, 140);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background: rgb(223, 119, 119);
+}
+.yes{
+    background: #0dc972;
+}
+.yes:hover{
+    background: #41cea4;
+}
